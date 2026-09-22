@@ -6,7 +6,7 @@ st.set_page_config(page_title="V150.2 Forward Monitor", page_icon="📈", layout
 st.title("📈 V150.2 Forward Monitor")
 st.caption("Forward Test 전용 · 전략 파라미터는 변경하지 않습니다.")
 
-DATA = Path("data")
+DATA = Path(".")
 SUMMARY = DATA / "V150_2_forward_summary.csv"
 TRADES = DATA / "V150_2_forward_trades.csv"
 HISTORY = DATA / "V150_2_run_history.csv"
